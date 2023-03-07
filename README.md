@@ -14,3 +14,6 @@ Using the factors to predict happiness index of Singapore in 2024<br>
 Whether development of country and region plays a part in happiness index<br>
 Accumulate world data of happiness each year (find average) then whether it improved over the years<br>
 Which factor is the most crucial in affecting happiness<br>
+
+Task:<br>
+Each attempt to clean data.
