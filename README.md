@@ -8,7 +8,7 @@
 10% for the quality of your final team presentation and overall impressions<br>
 10% for learning something new and doing something beyond this course<br>
 
-Objectives:
+Objectives:<br>
 Use factors to predict happiness index<br>
 Using the factors to predict happiness index of Singapore in 2024<br>
 Whether development of country and region plays a part in happiness index<br>
