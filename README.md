@@ -9,11 +9,10 @@
 10% for learning something new and doing something beyond this course<br>
 
 Objectives:<br>
-Use factors to predict happiness index<br>
-Using the factors to predict happiness index of Singapore in 2024<br>
-Whether development of country and region plays a part in happiness index<br>
-Accumulate world data of happiness each year (find average) then whether it improved over the years<br>
-Which factor is the most crucial in affecting happiness<br>
+Use factors to predict diabetes<br>
+Which is the most influential factor of diabetes<br>
+Drop skinthickness and insulin<br>
+Use median for bloodpressure, glucose and BMI<br>
 
 Task:<br>
 Each attempt to clean data.
