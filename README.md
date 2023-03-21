@@ -15,6 +15,7 @@ Drop skinthickness and insulin<br>
 Use median for bloodpressure, glucose and BMI<br>
 
 Task:<br>
-Clarify with tutor on balanced diabetic cases if it affects data (or maybe we do this as extra? then make comparison and present)
-Beyond course: Random forest, logistic regression
+Clarify with tutor on balanced diabetic cases if it affects data (or maybe we do this as extra? then make comparison and present)<br>
+Beyond course: Random forest, logistic regression<br>
+Resampling
 Explain analysis
