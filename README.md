@@ -31,11 +31,13 @@ For detailed walkthrough, please view the source code in order from:
 ## Conclusion
 * Glucose has the highest correlation to whether a person has diabetes and the decision tree also concludes that glucose is the most importnat factor in determining diabetic outcome by being the root node.
 * Upsampling imbalanced data improved the model performance especially on the non-diabetic class.
-* Decision tree for an upsampled data has a higher accuracy of 83%, 64% 81%, 78%
+* Decision tree for an upsampled data has a higher accuracy.
+<br>
 |    | Normal Decision Tree  | Upsampled Decision Tree |
 | ------------- || ------------- | ------------- |
 | Train Data| 83%  | 64%  |
 | Test Data | 81%  | 78%  |
+<br>
 * Random forest tree would be the best classifier to determine whether a person is likely to have diaebetes with an accuracy of 97%.
 * Hence, it is possible to predict if a person is likely to suffer from diabetes using random forest with the high accuracy.
 
