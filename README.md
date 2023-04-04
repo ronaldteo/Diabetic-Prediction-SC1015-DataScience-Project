@@ -1,7 +1,7 @@
 # Welcome to Diabetes Prediction Repository
 
 ## About
-This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on whether a person suffers diabetes based on various attributes in a dataset originally from the Naitonal Institues of Diabetes and Digestive and Kidney Diseases. The dataset include 768 datas of individual suffering from diabetes and not.
+This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on whether a person suffers diabetes based on various attributes in a dataset originally from the [Naitonal Institues of Diabetes and Digestive and Kidney Diseases](https://www.kaggle.com/code/khageshorgiri/diabetes-prediction). The dataset include 768 datas of individual suffering from diabetes and not.
 
 Please refer to the dataset here [insert dataset]
 
