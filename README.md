@@ -1,4 +1,4 @@
-# Data-Science-Project
+# Welcome to Diabetes Prediction Repository
 
 10% for coming up with your own problem definition based on a dataset<br>
 10% for data preparation and cleaning to suit the problem of your choice<br>
