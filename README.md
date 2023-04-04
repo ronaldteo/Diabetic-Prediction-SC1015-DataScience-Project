@@ -1,21 +1,36 @@
 # Welcome to Diabetes Prediction Repository
 
-10% for coming up with your own problem definition based on a dataset<br>
-10% for data preparation and cleaning to suit the problem of your choice<br>
-20% for exploratory data analysis/visualization to gather relevant insights<br>
-20% for the use of machine learning techniques to solve specific problem<br>
-20% for the presentation of data-driven insights and the recommendations<br>
-10% for the quality of your final team presentation and overall impressions<br>
-10% for learning something new and doing something beyond this course<br>
+## About
+This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on whether a person suffers diabetes based on various variable in Kaggle dataset. For detailed walkthrough, please view the source code in order from:
+<br>
 
-Objectives:<br>
-Use factors to predict diabetes<br>
-Which is the most influential factor of diabetes<br>
-Drop skinthickness and insulin<br>
-Use median for bloodpressure, glucose and BMI<br>
+1.
+2.
+3.
+4.
+5.
+<br>
+## Contributors
+- Ronald Teo Boon Keat
+- Tay Wei Yang
+- Wong Zhen Wei Gabriel
 
-Task:<br>
-Clarify with tutor on balanced diabetic cases if it affects data (or maybe we do this as extra? then make comparison and present)<br>
-Beyond course: Random forest, logistic regression<br>
-Resampling
-Explain analysis
+## Problem Definition
+<br>
+- Are we able to predict if a person suffers from diabetes based on the attributes?
+- Which model is the best in predicting it?
+
+## Models Used
+<br>
+1. Linear Regression
+2. Decision Tree
+3. Logistic Regression
+4. Random Forest
+
+## Conclusion
+..
+
+## What did we learn from this project?
+..
+
+## References
