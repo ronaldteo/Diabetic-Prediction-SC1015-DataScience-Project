@@ -46,5 +46,5 @@ For detailed walkthrough, please view the source code in order from:
 * Get to experience first-hand of teamworking in a data science project which replicates what it may be like in the working industry.
 
 ## References
-https://www.kaggle.com/code/khageshorgiri/diabetes-prediction
-https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761</br>
+https://www.kaggle.com/code/khageshorgiri/diabetes-prediction </br>
+https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761
