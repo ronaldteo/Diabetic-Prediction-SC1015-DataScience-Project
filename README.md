@@ -47,3 +47,4 @@ For detailed walkthrough, please view the source code in order from:
 
 ## References
 https://www.kaggle.com/code/khageshorgiri/diabetes-prediction
+https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761
