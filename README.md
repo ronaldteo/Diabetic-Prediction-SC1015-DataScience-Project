@@ -27,7 +27,7 @@ For detailed walkthrough, please view the source code in order from:
 * Which model is the best in predicting it?
 * Problem Statement: "To devise a method for early detection of diabetes to prevent diabetic complications, using diagnostic measurements to predict whether an individual is likely to have diabetes."
 
-## Data Cleaning
+## [Diabetes Prediction (Data Cleaning)](https://github.com/ronaldteo/Data-Science-Project/blob/53bae5b751e34c129782824ad7bdcaf7679523d2/Diabetes%20Prediction%20(Exploratory%20Analysis%20&%20Visualisation).ipynb)
 
 After we defined our problem, we cleaned and prepped the dataset that will be used for Data Visualization and Analysis. After we visualize and analyze, we will do upsampling for our data to train our model more accurately. 
 
@@ -36,7 +36,7 @@ After we defined our problem, we cleaned and prepped the dataset that will be us
 * We also replaced the NULL values for remaining attributes with its median.
 * 30% Skinthickness and Insulin attribute are missing. We also noticed that Skinthickness and Insulin has little correlation with outcome, so we dropped these columns.
 
-## Data Visualization & Exploratory Analysis
+## [Diabetes Prediction (Exploratory Analysis & Data Visualisation)](https://github.com/ronaldteo/Data-Science-Project/blob/53bae5b751e34c129782824ad7bdcaf7679523d2/Diabetes%20Prediction%20(Data%20Cleaning).ipynb)
 
 Cleaning our data enables us to start visualizing and analyzing our data.
 
@@ -54,23 +54,20 @@ After we plotted our graphs, we plotted the Linear Regression graphs, which look
   2) The correlation for Age & Glucose is 0.27, which also implies a slight positive correlation.
 * Even though BMI and Age only has a slight positive correlation with Glucose, we can speculate that many such variables can all contribute to better predict if someone has diabetes. 
 
-## Models Used
+## [Diabetes Prediction (Upsampling & Models)](https://github.com/ronaldteo/Data-Science-Project/blob/main/Diabetes%20Prediction%20(Upsampling%20and%20Models).ipynb)
 
 After researching and consulting our Teaching Assistant, we realised that our data has imbalanced classes, which affected the accuracy of our models. And so, we upsampled our data to train a more accurate model. These are the 3 models we used.
 1. Decision Tree<br>
-2. Logistic Regression<br>
-3. Random Forest<br>
-4. K-Nearest Neighbors (KNN)<br>
+2. Random Forest<br>
+3. K-Nearest Neighbors (KNN)<br>
 
-Decision Tree:
-* With an initial test accuracy of 0.733, the accuracy of the decision tree increased to 0.81. This showed that upsampling improved our accuracy.
+**Decision Tree:**
+* We started out with the Decision Tree that many of us are familiar with. With an initial test accuracy of 0.733, the accuracy of the decision tree increased to 0.81. This showed that upsampling improved our accuracy.
 
-Logistic Regression: 
-
-Random Forest: 
+**Random Forest: **
 * Random Forest combines several decision trees for classification and regression. It prevents overfitting due to bias and is more accurate in predictions. With an average accuracy of 0.96, it is by far the most accurate model that we plotted. By tuning the hyperparameters, we estimated that the optimal depth would be 14. So we used depth 5 and 14 to produce our Random Forest.
 
-K-Nearest Neighbors (KNN):
+**K-Nearest Neighbors (KNN):**
 * KNN is a simple algorithm that stores all the available cases and classifies the new data or case based on a similarity measure. However, the algorithm gets significantly slower as the number of independent variables increase. Our model produced the best accuracy when K = 1, where K represents the parameter that refers to the number of nearest neighbours that will be included in the majority of the voting process.
 
 ## Conclusion
@@ -91,7 +88,12 @@ K-Nearest Neighbors (KNN):
 * Get to experience first-hand of teamworking in a data science project which replicates what it may be like in the working industry.
 
 ## References
-https://www.kaggle.com/code/khageshorgiri/diabetes-prediction </br>
-https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761
-https://www.datacamp.com/tutorial/random-forests-classifier-python
-https://towardsdatascience.com/heres-what-i-ve-learnt-about-sklearn-resample-ab735ae1abc4
+Afolabi, S. (2022, September 17). Here's what I've learnt about sklearn.resample. Medium. Retrieved April 14, 2023, from https://towardsdatascience.com/heres-what-i-ve-learnt-about-sklearn-resample-ab735ae1abc4 
+
+Brownlee, J. (2021, January 21). Failure of classification accuracy for imbalanced class distributions. MachineLearningMastery.com. Retrieved April 14, 2023, from https://machinelearningmastery.com/failure-of-accuracy-for-imbalanced-class-distributions/ 
+
+Harrison, O. (2019, July 14). Machine learning basics with the K-nearest neighbors algorithm. Medium. Retrieved April 14, 2023, from https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761 
+
+Khageshor, G. (2023, April 7). Diabetes Prediction - Eda &amp; Prediction. Kaggle. Retrieved April 14, 2023, from https://www.kaggle.com/code/khageshorgiri/diabetes-prediction 
+
+Yiu, T. (2021, September 29). Understanding random forest. Medium. Retrieved April 14, 2023, from https://towardsdatascience.com/understanding-random-forest-58381e0602d2
