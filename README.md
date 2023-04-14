@@ -30,7 +30,7 @@ This is the link to our Video Presentation. We are unable to upload on Github as
 * Which model is the best in predicting it?
 * Problem Statement: "To devise a method for early detection of diabetes to prevent diabetic complications, using diagnostic measurements to predict whether an individual is likely to have diabetes."
 
-## [Diabetes Prediction (Data Cleaning)](https://github.com/ronaldteo/Data-Science-Project/blob/53bae5b751e34c129782824ad7bdcaf7679523d2/Diabetes%20Prediction%20(Data%20Cleaning).ipynb)
+## [Diabetes Prediction (Data Cleaning)](https://github.com/ronaldteo/SC1015-Data-Science-Project/blob/main/Diabetes%20Prediction%20(Data%20Cleaning).ipynb)
 
 After we defined our problem, we cleaned and prepped the dataset that will be used for Data Visualization and Analysis. After we visualize and analyze, we will do upsampling for our data to train our model more accurately. 
 
@@ -39,7 +39,7 @@ After we defined our problem, we cleaned and prepped the dataset that will be us
 * We also replaced the NULL values for remaining attributes with its median.
 * 30% of Skinthickness and Insulin attribute are missing. We also noticed that Skinthickness and Insulin has little correlation with outcome, so we dropped these columns.
 
-## [Diabetes Prediction (Exploratory Analysis & Data Visualisation)](https://github.com/ronaldteo/Data-Science-Project/blob/53bae5b751e34c129782824ad7bdcaf7679523d2/Diabetes%20Prediction%20(Exploratory%20Analysis%20&%20Visualisation).ipynb)
+## [Diabetes Prediction (Exploratory Analysis & Data Visualisation)](https://github.com/ronaldteo/SC1015-Data-Science-Project/blob/a40dd0dc4ae290db82584a331b17a86a56f92420/Diabetes%20Prediction%20(Exploratory%20Analysis%20&%20Data%20Visualisation).ipynb)
 
 Cleaning our data enables us to start visualizing and analyzing our data.
 
@@ -57,7 +57,7 @@ After we plotted our graphs, we plotted the Linear Regression graphs, which look
   2) The correlation for Age & Glucose is 0.27, which also implies a slight positive correlation.
 * Even though BMI and Age only has a slight positive correlation with Glucose, we can speculate that many such variables can all contribute to better predict if someone has diabetes. 
 
-## [Diabetes Prediction (Upsampling & Models)](https://github.com/ronaldteo/Data-Science-Project/blob/main/Diabetes%20Prediction%20(Upsampling%20and%20Models).ipynb)
+## [Diabetes Prediction (Upsampling & Models)](https://github.com/ronaldteo/SC1015-Data-Science-Project/blob/a40dd0dc4ae290db82584a331b17a86a56f92420/Diabetes%20Prediction%20(Upsampling%20&%20Models).ipynb)
 
 After researching and consulting our Teaching Assistant, we realised that our data has imbalanced classes, which affected the accuracy of our models. And so, we upsampled our data to train a more accurate model. These are the 3 models we used.
 1. Decision Tree<br>
