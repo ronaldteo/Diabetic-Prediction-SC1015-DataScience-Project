@@ -7,21 +7,34 @@ Please refer to the dataset [here](https://github.com/ronaldteo/Data-Science-Pro
 
 For detailed walkthrough, please view the source code in order from:
 
-1. [Diabetes Prediction (Data Cleaning & Exploratory Analysis)](https://github.com/ronaldteo/Data-Science-Project/blob/c73fc84e184cf4166e4faf15f26072d346ef87f1/Diabetes%20Prediction%20(Data%20Cleaning%20&%20Exploratory%20Analysis).ipynb)
-2. [Diabetes Prediction (Upsampling and Models)](https://github.com/ronaldteo/Data-Science-Project/blob/c73fc84e184cf4166e4faf15f26072d346ef87f1/Diabetes%20Prediction%20(Upsampling%20and%20Models).ipynb)
-
+1. Problem Definition
+2. Data Cleaning
+3. Data Visualization & Analysis
+4. Modeling
+5. Conclusion
+6. References
 
 ## Contributors
 * Ronald Teo Boon Keat
 * Tay Wei Yang
 * Wong Zhen Wei Gabriel
 
+## Video Presentation
+[https://drive.google.com/file/d/1psC_N_pjgUpRWYNCBUKMJ2qGNqkxsq6p/view?usp=share_link](https://www.google.com)
+
 ## Problem Definition
 * Are we able to predict if a person suffers from diabetes based on the attributes?
 * Which model is the best in predicting it?
+* Problem Statement: "To devise a method for early detection of diabetes to prevent diabetic complications, using diagnostic measurements to predict whether an individual is likely to have diabetes."
 
-## Video Link
-* [Our Project video](https://drive.google.com/file/d/1psC_N_pjgUpRWYNCBUKMJ2qGNqkxsq6p/view?usp=share_link)
+## Data Cleaning
+* Our preliminary exploration found that missing data for each attribute were filled with zeros.
+* Hence, we replaced the zeros with NULL and counted the number of missing datas.
+* We also replaced the NULL values for remaining attributes with its median.
+* 30% Skinthickness and Insulin attribute are missing. We also noticed that Skinthickness and Insulin has little correlation with outcome, so we dropped these columns.
+
+## Data Visualization & Analysis
+* 
 
 ## Models Used
 1. Linear Regression<br>
@@ -49,3 +62,4 @@ For detailed walkthrough, please view the source code in order from:
 ## References
 https://www.kaggle.com/code/khageshorgiri/diabetes-prediction </br>
 https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761
+https://www.datacamp.com/tutorial/random-forests-classifier-python
