@@ -20,6 +20,8 @@ For detailed walkthrough, please view the source code in order from:
 * Wong Zhen Wei Gabriel
 
 ## Video Presentation
+
+This is the link to our Video Presentation. We are unable to upload on Github as the file is too big.
 [https://drive.google.com/file/d/1psC_N_pjgUpRWYNCBUKMJ2qGNqkxsq6p/view?usp=share_link](https://www.google.com)
 
 ## Problem Definition
