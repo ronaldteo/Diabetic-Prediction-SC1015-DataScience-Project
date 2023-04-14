@@ -36,7 +36,9 @@ After we defined our problem, we cleaned and prepped the dataset that will be us
 * We also replaced the NULL values for remaining attributes with its median.
 * 30% Skinthickness and Insulin attribute are missing. We also noticed that Skinthickness and Insulin has little correlation with outcome, so we dropped these columns.
 
-## Data Visualization & Analysis
+## Data Visualization & Exploratory Analysis
+
+Cleaning our data enables us to start visualizing and analyzing our data.
 
 * Our count plot showed that most individuals are in the 20s.
 * We created a boxplot for each attribute. These are our findings:
@@ -53,10 +55,23 @@ After we plotted our graphs, we plotted the Linear Regression graphs, which look
 * Even though BMI and Age only has a slight positive correlation with Glucose, we can speculate that many such variables can all contribute to better predict if someone has diabetes. 
 
 ## Models Used
-1. Linear Regression<br>
-2. Decision Tree<br>
-3. Logistic Regression<br>
-4. Random Forest<br>
+
+After researching and consulting our Teaching Assistant, we realised that our data has imbalanced classes, which affected the accuracy of our models. And so, we upsampled our data to train a more accurate model. These are the 3 models we used.
+1. Decision Tree<br>
+2. Logistic Regression<br>
+3. Random Forest<br>
+4. K-Nearest Neighbors (KNN)<br>
+
+Decision Tree:
+* With an initial test accuracy of 0.733, the accuracy of the decision tree increased to 0.81. This showed that upsampling improved our accuracy.
+
+Logistic Regression: 
+
+Random Forest: 
+* Random Forest combines several decision trees for classification and regression. It prevents overfitting due to bias and is more accurate in predictions. With an average accuracy of 0.96, it is by far the most accurate model that we plotted. By tuning the hyperparameters, we estimated that the optimal depth would be 14. So we used depth 5 and 14 to produce our Random Forest.
+
+K-Nearest Neighbors (KNN):
+* KNN is a simple algorithm that stores all the available cases and classifies the new data or case based on a similarity measure. However, the algorithm gets significantly slower as the number of independent variables increase. Our model produced the best accuracy when K = 1, where K represents the parameter that refers to the number of nearest neighbours that will be included in the majority of the voting process.
 
 ## Conclusion
 * Glucose has the highest correlation to whether a person has diabetes and the decision tree also concludes that glucose is the most importnat factor in determining diabetic outcome by being the root node.
@@ -79,3 +94,4 @@ After we plotted our graphs, we plotted the Linear Regression graphs, which look
 https://www.kaggle.com/code/khageshorgiri/diabetes-prediction </br>
 https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761
 https://www.datacamp.com/tutorial/random-forests-classifier-python
+https://towardsdatascience.com/heres-what-i-ve-learnt-about-sklearn-resample-ab735ae1abc4
