@@ -7,11 +7,12 @@ Please refer to the dataset [here](https://github.com/ronaldteo/Data-Science-Pro
 
 For detailed walkthrough, please view the source code in order from:
 
-1.
-2.
-3.
-4.
-5.
+1. Problem Definition
+2. Data Cleaning
+3. Data Visualization & Analysis
+4. Modeling
+5. Conclusion
+6. References
 
 ## Contributors
 * Ronald Teo Boon Keat
@@ -21,9 +22,16 @@ For detailed walkthrough, please view the source code in order from:
 ## Problem Definition
 * Are we able to predict if a person suffers from diabetes based on the attributes?
 * Which model is the best in predicting it?
+* Problem Statement: "To devise a method for early detection of diabetes to prevent diabetic complications, using diagnostic measurements to predict whether an individual is likely to have diabetes."
 
-## Video Link
-* [Our Project video](https://drive.google.com/file/d/1psC_N_pjgUpRWYNCBUKMJ2qGNqkxsq6p/view?usp=share_link)
+## Data Cleaning
+* Our preliminary exploration found that missing data for each attribute were filled with zeros.
+* Hence, we replaced the zeros with NULL and counted the number of missing datas.
+* We also replaced the NULL values for remaining attributes with its median.
+* 30% Skinthickness and Insulin attribute are missing. We also noticed that Skinthickness and Insulin has little correlation with outcome, so we dropped these columns.
+
+## Data Visualization & Analysis
+* 
 
 ## Models Used
 1. Linear Regression<br>
@@ -51,3 +59,4 @@ For detailed walkthrough, please view the source code in order from:
 ## References
 https://www.kaggle.com/code/khageshorgiri/diabetes-prediction </br>
 https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761
+https://www.datacamp.com/tutorial/random-forests-classifier-python
