@@ -22,6 +22,9 @@ For detailed walkthrough, please view the source code in order from:
 * Are we able to predict if a person suffers from diabetes based on the attributes?
 * Which model is the best in predicting it?
 
+## Video Link
+* [Our Project video](https://drive.google.com/file/d/1psC_N_pjgUpRWYNCBUKMJ2qGNqkxsq6p/view?usp=share_link)
+
 ## Models Used
 1. Linear Regression<br>
 2. Decision Tree<br>
