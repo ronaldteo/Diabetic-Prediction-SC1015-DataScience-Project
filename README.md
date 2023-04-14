@@ -5,7 +5,7 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 Please refer to the dataset [here](https://github.com/ronaldteo/Data-Science-Project/blob/f269bc2ba948eacc60f2842d6da8dc7013ad3ab9/diabetes.csv).
 
-For detailed walkthrough, please view the source code in order from:
+For detailed walkthrough, please look through the README in this from:
 
 1. [Problem Definition](https://github.com/ronaldteo/Data-Science-Project#problem-definition)
 2. [Data Cleaning](https://github.com/ronaldteo/Data-Science-Project#diabetes-prediction-data-cleaning)
