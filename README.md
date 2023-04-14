@@ -23,23 +23,23 @@ For detailed walkthrough, please look through the README in this format:
 ## Video Presentation
 
 This is the link to our Video Presentation. We are unable to upload on Github as the file is too big.
-[https://drive.google.com/file/d/1psC_N_pjgUpRWYNCBUKMJ2qGNqkxsq6p/view?usp=share_link](https://www.google.com)
+[https://drive.google.com/file/d/1psC_N_pjgUpRWYNCBUKMJ2qGNqkxsq6p/view?usp=share_link](https://drive.google.com/file/d/1psC_N_pjgUpRWYNCBUKMJ2qGNqkxsq6p/view?usp=share_link)
 
 ## Problem Definition
 * Are we able to predict if a person suffers from diabetes based on the attributes?
 * Which model is the best in predicting it?
 * Problem Statement: "To devise a method for early detection of diabetes to prevent diabetic complications, using diagnostic measurements to predict whether an individual is likely to have diabetes."
 
-## [Diabetes Prediction (Data Cleaning)](https://github.com/ronaldteo/Data-Science-Project/blob/53bae5b751e34c129782824ad7bdcaf7679523d2/Diabetes%20Prediction%20(Exploratory%20Analysis%20&%20Visualisation).ipynb)
+## [Diabetes Prediction (Data Cleaning)](https://github.com/ronaldteo/Data-Science-Project/blob/53bae5b751e34c129782824ad7bdcaf7679523d2/Diabetes%20Prediction%20(Data%20Cleaning).ipynb)
 
 After we defined our problem, we cleaned and prepped the dataset that will be used for Data Visualization and Analysis. After we visualize and analyze, we will do upsampling for our data to train our model more accurately. 
 
 * Our preliminary exploration found that missing data for each attribute were filled with zeros.
 * Hence, we replaced the zeros with NULL and counted the number of missing datas.
 * We also replaced the NULL values for remaining attributes with its median.
-* 30% Skinthickness and Insulin attribute are missing. We also noticed that Skinthickness and Insulin has little correlation with outcome, so we dropped these columns.
+* 30% of Skinthickness and Insulin attribute are missing. We also noticed that Skinthickness and Insulin has little correlation with outcome, so we dropped these columns.
 
-## [Diabetes Prediction (Exploratory Analysis & Data Visualisation)](https://github.com/ronaldteo/Data-Science-Project/blob/53bae5b751e34c129782824ad7bdcaf7679523d2/Diabetes%20Prediction%20(Data%20Cleaning).ipynb)
+## [Diabetes Prediction (Exploratory Analysis & Data Visualisation)](https://github.com/ronaldteo/Data-Science-Project/blob/53bae5b751e34c129782824ad7bdcaf7679523d2/Diabetes%20Prediction%20(Exploratory%20Analysis%20&%20Visualisation).ipynb)
 
 Cleaning our data enables us to start visualizing and analyzing our data.
 
@@ -47,7 +47,7 @@ Cleaning our data enables us to start visualizing and analyzing our data.
 * We created a boxplot for each attribute. These are our findings:
   1) The higher the glucose levels, the are more likely they are be at risk of diabetes.
   2) People with higher BMI are more likely to be at risk of diabetes. 50% of the diabetics individuals are have higher BMI as compared to the median of non-diabetic individuals for age and BMI.
-  3) Blood pressure and DiabetesPredigreeFunction which measurement for diabetes from genetics doesn’t seem to be good indicator of diabetes.
+  3) Blood pressure and DiabetesPredigreeFunction which measures for diabetes from genetics doesn’t seem to be good indicator of diabetes.
   4) The correlation tallies with our findings from the boxplot
 
 After we plotted our graphs, we plotted the Linear Regression graphs, which looked at 2 attribute: BMI & Age Vs Glucose. We wanted to see if BMI & Age has any relationship with Glucose.
@@ -67,7 +67,7 @@ After researching and consulting our Teaching Assistant, we realised that our da
 **Decision Tree:**
 * We started out with the Decision Tree that many of us are familiar with. With an initial test accuracy of 0.733, the accuracy of the decision tree increased to 0.81. This showed that upsampling improved our accuracy.
 
-**Random Forest: **
+**Random Forest:**
 * Random Forest combines several decision trees for classification and regression. It prevents overfitting due to bias and is more accurate in predictions. With an average accuracy of 0.96, it is by far the most accurate model that we plotted. By tuning the hyperparameters, we estimated that the optimal depth would be 14. So we used depth 5 and 14 to produce our Random Forest.
 
 **K-Nearest Neighbors (KNN):**
