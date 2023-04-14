@@ -7,12 +7,13 @@ Please refer to the dataset [here](https://github.com/ronaldteo/Data-Science-Pro
 
 For detailed walkthrough, please view the source code in order from:
 
-1. Problem Definition
-2. Data Cleaning
-3. Data Visualization & Analysis
-4. Modeling
-5. Conclusion
-6. References
+1. [Problem Definition](https://github.com/ronaldteo/Data-Science-Project/edit/main/README.md#problem-definition)
+2. [Data Cleaning](https://github.com/ronaldteo/Data-Science-Project/edit/main/README.md#diabetes-prediction-data-cleaning)
+3. [Data Visualization & Analysis](https://github.com/ronaldteo/Data-Science-Project/edit/main/README.md#diabetes-prediction-exploratory-analysis--data-visualisation)
+4. [Modeling](https://github.com/ronaldteo/Data-Science-Project/edit/main/README.md#diabetes-prediction-upsampling--models)
+5. [Conclusion](https://github.com/ronaldteo/Data-Science-Project/edit/main/README.md#conclusion)
+6. [What we learnt](https://github.com/ronaldteo/Data-Science-Project/edit/main/README.md#what-did-we-learn-from-this-project)
+7. [References](https://github.com/ronaldteo/Data-Science-Project/edit/main/README.md#what-did-we-learn-from-this-project)
 
 ## Contributors
 * Ronald Teo Boon Keat
