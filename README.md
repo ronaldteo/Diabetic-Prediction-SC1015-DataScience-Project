@@ -40,15 +40,16 @@ After we defined our problem, we cleaned and prepped the dataset that will be us
 
 * Our count plot showed that most individuals are in the 20s.
 * We created a boxplot for each attribute. These are our findings:
-* 1) The higher the glucose levels, the are more likely they are be at risk of diabetes.
-* 2) People with higher BMI are more likely to be at risk of diabetes. 50% of the diabetics individuals are have higher BMI as compared to the median of non-diabetic individuals for age and BMI.
-* 3) Blood pressure and DiabetesPredigreeFunction which measurement for diabetes from genetics doesn’t seem to be good indicator of diabetes.
-* 4) The correlation tallies with our findings from the boxplot
+  1) The higher the glucose levels, the are more likely they are be at risk of diabetes.
+  2) People with higher BMI are more likely to be at risk of diabetes. 50% of the diabetics individuals are have higher BMI as compared to the median of non-diabetic individuals for age and BMI.
+  3) Blood pressure and DiabetesPredigreeFunction which measurement for diabetes from genetics doesn’t seem to be good indicator of diabetes.
+  4) The correlation tallies with our findings from the boxplot
 
-After we plotted our graphs, we plotted the Linear Regression, which looked at 2 attribute: BMI & Age Vs Glucose. We wanted to see if BMI & Age has any relationship with Glucose.
+After we plotted our graphs, we plotted the Linear Regression graphs, which looked at 2 attribute: BMI & Age Vs Glucose. We wanted to see if BMI & Age has any relationship with Glucose.
+
 * After plotting our Linear Regression graphs, we found out that
-* 1) For BMI and Glucose, the correlation is a 0.23, which implies a slight positive correlation
-* 2) The correlation for Age & Glucose is 0.27, which also implies a slight positive correlation.
+  1) For BMI and Glucose, the correlation is a 0.23, which implies a slight positive correlation
+  2) The correlation for Age & Glucose is 0.27, which also implies a slight positive correlation.
 * Even though BMI and Age only has a slight positive correlation with Glucose, we can speculate that many such variables can all contribute to better predict if someone has diabetes. 
 
 ## Models Used
