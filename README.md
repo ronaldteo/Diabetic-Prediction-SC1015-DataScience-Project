@@ -85,7 +85,8 @@ After researching and consulting our Teaching Assistant, we realised that our da
 * We learnt how to utilize the data science pipeline to guide us in the project.
 * Resampling method to make the data balanced.
 * Selecting the right visualisation that can give the best representation and tells the most about the data.
-* Logistic regression and random forest tree whereby we understand the model and implement them in dataset.
+* K-Nearest Neighbour and random forest tree whereby we understand the model and implement them in dataset.
+* Get a clearer picture on how to evaluate the models we have created
 * How to interpret and gather insights based on the results.
 * Collaborating in GitHub
 * Get to experience first-hand of teamworking in a data science project which replicates what it may be like in the working industry.
@@ -104,3 +105,5 @@ Yiu, T. (2021, September 29). Understanding random forest. Medium. Retrieved Apr
 Shrutimechlearn. (2020, October 31). Step by step classification-KNN-detailed. Kaggle. Retrieved April 15, 2023, from https://www.kaggle.com/code/shrutimechlearn/step-by-step-diabetes-classification-knn-detailed 
 
 says:, S. A., says:, V., says:, S., says:, M. E., says:, D., says:, B. K., says:, O., Says:, T., Says:, S., says:, Z. C., says:, A., says:, P. S., says:, K. W. K., says:, C., says:, I. hussain, says:, S., says:, S. S., says:, M. D., says:, M. jain, … says:, M. (2017, September 13). Basic evaluation measures from the confusion matrix. Classifier evaluation with imbalanced datasets. Retrieved April 15, 2023, from https://classeval.wordpress.com/introduction/basic-evaluation-measures/#:~:text=Error%20rate%20is%20calculated%20as,dataset%20(P%20%2B%20N). 
+
+Sklearn.neighbors.kneighborsclassifier. scikit. (n.d.). Retrieved April 15, 2023, from https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html 
