@@ -102,3 +102,5 @@ Khageshor, G. (2023, April 7). Diabetes Prediction - Eda &amp; Prediction. Kaggl
 Yiu, T. (2021, September 29). Understanding random forest. Medium. Retrieved April 14, 2023, from https://towardsdatascience.com/understanding-random-forest-58381e0602d2
 
 Shrutimechlearn. (2020, October 31). Step by step classification-KNN-detailed. Kaggle. Retrieved April 15, 2023, from https://www.kaggle.com/code/shrutimechlearn/step-by-step-diabetes-classification-knn-detailed 
+
+says:, S. A., says:, V., says:, S., says:, M. E., says:, D., says:, B. K., says:, O., Says:, T., Says:, S., says:, Z. C., says:, A., says:, P. S., says:, K. W. K., says:, C., says:, I. hussain, says:, S., says:, S. S., says:, M. D., says:, M. jain, … says:, M. (2017, September 13). Basic evaluation measures from the confusion matrix. Classifier evaluation with imbalanced datasets. Retrieved April 15, 2023, from https://classeval.wordpress.com/introduction/basic-evaluation-measures/#:~:text=Error%20rate%20is%20calculated%20as,dataset%20(P%20%2B%20N). 
