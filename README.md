@@ -100,3 +100,5 @@ Harrison, O. (2019, July 14). Machine learning basics with the K-nearest neighbo
 Khageshor, G. (2023, April 7). Diabetes Prediction - Eda &amp; Prediction. Kaggle. Retrieved April 14, 2023, from https://www.kaggle.com/code/khageshorgiri/diabetes-prediction 
 
 Yiu, T. (2021, September 29). Understanding random forest. Medium. Retrieved April 14, 2023, from https://towardsdatascience.com/understanding-random-forest-58381e0602d2
+
+Shrutimechlearn. (2020, October 31). Step by step classification-KNN-detailed. Kaggle. Retrieved April 15, 2023, from https://www.kaggle.com/code/shrutimechlearn/step-by-step-diabetes-classification-knn-detailed 
