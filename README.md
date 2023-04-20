@@ -25,7 +25,7 @@ For detailed walkthrough, please look through the README in this format:
 * Youtube link: 
 https://youtu.be/B3UIq5A_dYQ </br>
 
-*This is the link to our Video Presentation. We are unable to upload on Github as the file is too big.
+* This is the link to our Video Presentation. We are unable to upload on Github as the file is too big.
 [https://drive.google.com/file/d/1psC_N_pjgUpRWYNCBUKMJ2qGNqkxsq6p/view?usp=share_link](https://drive.google.com/file/d/1psC_N_pjgUpRWYNCBUKMJ2qGNqkxsq6p/view?usp=share_link)
 
 ## Problem Definition
