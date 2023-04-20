@@ -49,7 +49,7 @@ Cleaning our data enables us to start visualizing and analyzing our data.
 * Our count plot showed that most individuals are in the 20s.
 * We created a boxplot for each attribute. These are our findings:
   1) The higher the glucose levels, the more likely they are at risk of diabetes.
-  2) People with higher BMI are more likely to be at risk of diabetes. 50% of the diabetics individuals are have higher BMI as compared to the median of non-diabetic individuals for age and BMI.
+  2) People with higher BMI are more likely to be at risk of diabetes. 50% of the diabetics individuals have higher BMI as compared to the median of non-diabetic individuals for age and BMI.
   3) Blood pressure and DiabetesPredigreeFunction which measures for diabetes from genetics doesn’t seem to be good indicator of diabetes.
   4) The correlation tallies with our findings from the boxplot
 
@@ -77,7 +77,7 @@ After researching and consulting our Teaching Assistant, we realised that our da
 * KNN is a simple algorithm that stores all the available cases and classifies the new data or case based on a similarity measure. However, the algorithm gets significantly slower as the number of independent variables increase. Our model produced the best accuracy when K = 1, where K represents the parameter that refers to the number of nearest neighbours that will be included in the majority of the voting process.
 
 ## Conclusion
-* Glucose has the highest correlation to whether a person has diabetes and the decision tree also concludes that glucose is the most importnat factor in determining diabetic outcome by being the root node.
+* Glucose has the highest correlation to whether a person has diabetes and the decision tree also concludes that glucose is the most important factor in determining diabetic outcome by being the root node.
 * Upsampling imbalanced data improved the model performance especially on the non-diabetic class.
 * Decision tree for an upsampled data has a higher accuracy.
 * Logistic regression has the lowest accuracy score of 72% compared to other models.
@@ -89,9 +89,9 @@ After researching and consulting our Teaching Assistant, we realised that our da
 * Resampling method to make the data balanced.
 * Selecting the right visualisation that can give the best representation and tells the most about the data.
 * K-Nearest Neighbour and random forest tree whereby we understand the model and implement them in dataset.
-* Get a clearer picture on how to evaluate the models we have created
+* Get a clearer picture on how to evaluate the models we have created.
 * How to interpret and gather insights based on the results.
-* Collaborating in GitHub
+* Collaborating in GitHub.
 * Get to experience first-hand of teamworking in a data science project which replicates what it may be like in the working industry.
 
 ## References
