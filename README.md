@@ -48,7 +48,7 @@ Cleaning our data enables us to start visualizing and analyzing our data.
 
 * Our count plot showed that most individuals are in the 20s.
 * We created a boxplot for each attribute. These are our findings:
-  1) The higher the glucose levels, the are more likely they are be at risk of diabetes.
+  1) The higher the glucose levels, the more likely they are at risk of diabetes.
   2) People with higher BMI are more likely to be at risk of diabetes. 50% of the diabetics individuals are have higher BMI as compared to the median of non-diabetic individuals for age and BMI.
   3) Blood pressure and DiabetesPredigreeFunction which measures for diabetes from genetics doesn’t seem to be good indicator of diabetes.
   4) The correlation tallies with our findings from the boxplot
